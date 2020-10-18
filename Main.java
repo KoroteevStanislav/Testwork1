@@ -34,9 +34,6 @@ public class Main {
                     throw new IllegalArgumentException();}
                 System.out.println(calc(num1, num2, oper2));
             }
-            if ((num1 > 10 || num1 < 0) || (num2 > 10 || num2 < 0)) {
-                throw new IllegalArgumentException();
-            }
         }
         catch(IllegalArgumentException e) {
             if ((num1 > 10 || num1 < 1) || (num2 > 10 || num2 < 1)) {
